@@ -15,7 +15,7 @@ class RedisHelper implements RedisHelperInterface {
             'subject' => $messageSubject,
             'email' => $toEmailAddress,
         ]));
-        
+
         Log::info('Redis Data: ' . json_encode($response));
         
     }
